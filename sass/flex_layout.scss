@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    border: solid 1px black;
+    background: grey;
+    width: 500px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .child {
+        margin: 10px;
+        border: solid 1px black;
+        background: blue;
+        text-align: center;
+
+        width: 200px;
+        height: 200px;
+    }
+}
