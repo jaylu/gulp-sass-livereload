@@ -1,0 +1,30 @@
+{
+  "name": "gulp-sass-livereload",
+  "version": "1.0.0",
+  "description": "gulp sass livereload template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylu/gulp-sass-livereload.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "livereload"
+  ],
+  "author": "Jay Lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaylu/gulp-sass-livereload/issues"
+  },
+  "homepage": "https://github.com/jaylu/gulp-sass-livereload#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
