@@ -29,7 +29,7 @@ gulp.task('watch', function () {
 
 gulp.task('open',['connect', 'watch', 'sass'], function(){
   gulp.src('')
-  .pipe(open({uri: 'http://localhost:8080/flex_box.html', app: 'Google Chrome'}));
+  .pipe(open({uri: 'http://localhost:8080/index.html', app: 'Google Chrome'}));
 });
 
 gulp.task('default', ['open']);
